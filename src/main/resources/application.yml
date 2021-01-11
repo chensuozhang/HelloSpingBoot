@@ -1,0 +1,3 @@
+# server 设置
+server:
+  port: 9091
