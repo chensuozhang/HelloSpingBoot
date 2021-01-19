@@ -43,8 +43,8 @@
     <build>
         <plugins>
             <plugin>
+                <!--配置打包工具-->
                 <groupId>org.springframework.boot</groupId>
-                <!--                配置打包工具-->
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.helloworld.test.MainApplication</mainClass>
