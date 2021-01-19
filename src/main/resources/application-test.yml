@@ -1,0 +1,13 @@
+# server 设置
+server:
+  port: 9092
+
+person:
+  name: 陈维
+  age:  20
+  list:
+    - one
+    - two
+  cat:
+    name: 蓝猫
+    age: 100

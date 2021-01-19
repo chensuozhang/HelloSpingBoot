@@ -32,7 +32,11 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-
+        <!--只要源码或配置文件发生修改，Spring Boot应用可以自动重启-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
     </dependencies>
 
 
@@ -40,6 +44,7 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
+                <!--                配置打包工具-->
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.helloworld.test.MainApplication</mainClass>

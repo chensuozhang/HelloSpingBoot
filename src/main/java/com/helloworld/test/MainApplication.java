@@ -23,10 +23,10 @@ public class MainApplication {
         /*查看容器中的组件
         springboot会自动配置好开发常用的场景
         */
-        String[] names = configurableApplicationContext.getBeanDefinitionNames();
-        for (String name : names) {
-            System.out.println(name);
-        }
+//        String[] names = configurableApplicationContext.getBeanDefinitionNames();
+//        for (String name : names) {
+//            System.out.println(name);
+//        }
 //         从容器中获取组件
 //        HelloService h1 = configurableApplicationContext.getBean("HelloService");
 //        HelloService h2 = configurableApplicationContext.getBean("HelloService");
